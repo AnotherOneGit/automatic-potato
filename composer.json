@@ -7,7 +7,6 @@
     }
   ],
   "require": {
-    "ext-pdo": "*",
     "ext-json": "*"
   },
   "autoload": {
