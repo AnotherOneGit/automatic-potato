@@ -9,10 +9,10 @@ require "vendor/autoload.php";
 
 $player = new Player();
 
-//$chest = new Chest("bronze");
+$chest = new Chest("bronze");
 
-$monster = new Monster('bronze');
+$monster = new Monster('gold');
 
-//$player->doIt($chest);
+$player->doIt($chest);
 
 $player->doIt($monster);
